@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Clínica Médica</title>
+    <link rel="stylesheet" href="css/styles.css"> <!-- Crie um arquivo CSS para estilizar seu site -->
+</head>
+<body>
+    <header>
+        <h1>Clínica Médica</h1>     
+        <nav>
+            <ul>
+                <li><a href="#inicio">Início</a></li>
+                <li><a href="#servicos">Serviços</a></li>
+                <li><a href="#equipe">Equipe</a></li>
+                <li><a href="#contato">Contato</a></li>
+            </ul>
+        </nav>   
+    </header>
+        
+    
+    <section id="inicio">
+        <h2>Bem-vindo à nossa clínica médica</h2>        
+    </section>
+
+    <h2>Nossos Serviços</h2>
+    <p class="inicio-paragrafo">Oferecemos serviços de saúde de alta qualidade para você e sua família.</p>
+    <section id="servicos">        
+        <div class="servicos">
+            <img class="imagem-servico" src="img/consulta.png" alt="">
+            <p class="titulo-servicos">Consultas Médicas</p>
+        </div>
+        <div class="servicos">
+            <img class="imagem-servico" src="img/cirurgias.webp" alt="">
+            <p class="titulo-servicos">Cirurgias</p>
+        </div>
+        <div class="servicos">
+            <img class="imagem-servico" src="img/Exames.png" alt="">
+            <p class="titulo-servicos">Exames Laboratoriais</p>
+        </div>
+        <div class="servicos">
+            <img class="imagem-servico" src="img/tratamento.jpg" alt="">
+            <p class="titulo-servicos">Tratamentos Especiais</p>
+        </div>
+        
+    </section>
+
+    <h2>Nossa Equipe</h2>
+    <p>Nossa equipe médica altamente qualificada está aqui para cuidar de você.</p>
+    <section id="equipe">          
+        <div class="card">
+            <img src="img/medico1.png" alt="Imagem do Card">
+            <div class="card-info">
+                <h2>Dr. Ricardo Toledo</h2>
+                <p>Cardiologista.</p>
+                <a href="#">Saiba mais</a>
+            </div>
+        </div>
+        <div class="card">
+            <img src="img/medico2.png" alt="Imagem do Card">
+            <div class="card-info">
+                <h2>Drª Aline Siqueira</h2>
+                <p>Pediatra</p>
+                <a href="#">Saiba mais</a>
+            </div>
+        </div>
+        <div class="card">
+            <img src="img/medico3.png" alt="Imagem do Card">
+            <div class="card-info">
+                <h2>Dr. Paulo Travassos</h2>
+                <p>Ortopedista</p>
+                <a href="#">Saiba mais</a>
+            </div>
+        </div>
+    </section> 
+
+    <h2>Formulário de Contato</h2>
+    <section id="contato">
+        <div class="container">   
+            
+            <form action="#" method="post">
+                <div class="form-group">
+                    <label for="nome">Nome:</label>
+                    <input type="text" id="nome" name="nome" required>
+                </div>
+                <div class="form-group">
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" required>
+                </div>
+                <div class="form-group">
+                    <label for="mensagem">Mensagem:</label>
+                    <textarea id="mensagem" name="mensagem" rows="4" required></textarea>
+                </div>
+                <button type="submit">Enviar</button>
+            </form>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2023 Clínica Médica. Todos os direitos reservados.</p>
+    </footer>
+</body>
+</html>
